@@ -1,0 +1,17 @@
+exports.errorReason =  {
+    100: 'Required parameters can not be empty',
+    101: 'Illegal parameter',
+    102: 'coin does not exist',
+    103: 'Key does not exist',
+    104: 'Signature does not match',
+    105: 'Insufficient permissions',
+    106: 'Request expired(nonce error)',
+    200: 'Lack of balance',
+    201: 'Too small for the number of trading',
+    202: 'Price must be in 0 - 1000000',
+    203: 'Order does not exist',
+    401: 'System error',
+    402: 'Requests too frequently',
+    403: 'Non-open API',
+    404: 'IP restriction does not request the resource',
+};
